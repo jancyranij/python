@@ -1,0 +1,9 @@
+x=''
+a=input()
+x=a
+while(True):
+	a=input()
+	x=x+a
+	if(a=='N'):
+		break
+print(x)
